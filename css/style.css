@@ -1,0 +1,102 @@
+:root { /* PALETA DE COLORES */
+  --color-violetaF:#413e4a;
+  --color-violetaC:#73626e;
+  --color3:#b38184;
+  --color-rosa:#f0b49e;
+  --color-beige:#f7e4be;
+}
+*{/*  CON ESTOS ATRIBUTOS SETEAMOS TODO EN 0 PARA EVITAR CAMBIOS DE TAMAÑO INESPERADOS */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} 
+
+body{
+  background-color: var(--color-violetaF);
+}
+
+#banner{
+  text-align: center;
+  color: var(--color-beige);
+}
+
+.contenedorMenus p{
+        text-align: center;
+        color:var(--color-violetaC)
+    }
+
+    .contenedorMenus h1{
+      text-align: center;
+      color:var(--color-beige)
+  }
+
+.contenedorMenus ul {
+        list-style-type: none;
+        overflow: hidden;
+        background-color: var(--color-violetaF);
+    }
+.contenedorMenus  li {
+        border-style: solid;
+        background-color:var(--color-violetaF);
+      }
+
+      .contenedorMenus h1 {
+        text-align: center;
+        border-style: solid;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color:var(--color-violetaF);
+      }
+   
+#navbar ul {  
+    display: flex;
+    flex-direction: row; /* Con estos 3 centro todo */
+    justify-content: center;
+
+    font-size: 200%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    list-style-type: none;    /*  SACAMOS LAS VIÑETAS */
+    background-color:var(--color-violetaF);
+  }
+#navbar li a {  
+  padding-right: 60px;
+    color: var(--color-beige);
+    text-align: center;
+    text-decoration: none;  /* SACAMOS EL UNDERLINED  */
+  }  
+
+#navbar li a:hover {
+    background-color: var(--color-violetaC);
+  }
+  
+.tablaComidas{
+  display: flex; 
+  justify-content: center;
+  flex-direction: row;
+
+  text-align: center;  
+  padding-top: 30px;
+  background-color:var(--color-violetaF);
+ }
+
+.tablaComidas th{
+  padding-left: 100px;
+  }
+
+.tablaComidas td{  
+  text-align: center;  
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-bottom: 50px;
+    }
+
+.tablaComidas tr{
+      color:var(--color-beige)
+    }
+
+#footer{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+    }
