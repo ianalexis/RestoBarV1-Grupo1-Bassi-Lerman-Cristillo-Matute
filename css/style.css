@@ -126,3 +126,10 @@ body{
  #formularioDeReserva h1{  
   color: var(--color-beige); 
  }
+
+ #terminosReserva{
+  text-align: center;
+  padding-top: 1em;
+  padding-left: 1em;
+  color: var(--color-beige); 
+ }
