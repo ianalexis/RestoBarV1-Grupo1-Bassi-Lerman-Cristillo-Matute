@@ -103,8 +103,20 @@ body{
       justify-content: center;
     }
 
- .formularioDeReserva{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    #formularioDeReserva {
+      
+      border-top: #f7e4be 5px solid;
+      border-right: #f7e4be 5px solid;
+      border-bottom: #f7e4be 5px solid;
+      border-left: #f7e4be 5px solid;
+      padding-bottom: 10px;
+      
+    }
+
+ #formularioDeReserva label{
+  color: var(--color-beige); 
+ }
+
+ #formularioDeReserva h1{  
+  color: var(--color-beige); 
  }
