@@ -9,10 +9,12 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
 } 
 
 body{
   background-color: var(--color-violetaF);
+  
 }
 
 #banner{
@@ -56,13 +58,13 @@ body{
     font-size: 200%;
     padding-top: 20px;
     padding-bottom: 20px;
+    
     list-style-type: none;    /*  SACAMOS LAS VIÑETAS */
     background-color:var(--color-violetaF);
   }
 #navbar li a {  
   padding-right: 60px;
-    color: var(--color-beige);
-    text-align: center;
+    color: var(--color-beige);  
     text-decoration: none;  /* SACAMOS EL UNDERLINED  */
   }  
 
@@ -100,3 +102,9 @@ body{
       flex-direction: row;
       justify-content: center;
     }
+
+ .formularioDeReserva{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ }

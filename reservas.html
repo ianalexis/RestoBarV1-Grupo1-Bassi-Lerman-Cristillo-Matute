@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Carta</title>   
+        <link rel="stylesheet" href="css/style.css"> 
+    </head>
+<body>
+   <!--  BANNER -->
+   <section id="banner">
+    <h1> TITULASO</h1>
+</section>
+
+<!--  NAVBAR -->
+<nav id="navbar">
+    <ul>
+        <li><a href="carta.html#entradas">Entradas</a></li>
+        <li><a href="carta.html#platosPrincipales"">Plato Principal</a></li>
+        <li><a href="carta.html#postres">Postres</a></li>
+        <li><a href="carta.html#bebidas">Bebidas</a></li>
+        <li><a href="#">Reservas</a></li>
+    </ul>
+</nav>
+
+<section id = "formularioDeReserva" class="tablaComidas">
+    <form id ="formReserva" action="" >
+        <label for="nombreCompleto">Nombre Completo</label><br>
+        <input type="text" id="nombreCompleto" name="nombreCompleto"><br>
+        <label for="dni">DNI</label><br>
+        <input type="text" id="dni" name="dni"><br>
+        <label for="telefonoContacto">Telefono de Contacto</label><br>
+        <input type="text" id="telefonoContacto" name="telefonoContacto"><br>
+        <label for="lname">Cantidad de Personas</label><br>
+        <input type="text" id="lname" name="lname"><br>
+
+        <br>
+        <br>
+        <h1>¿Requiere algún tipo de menú especial? (vacio para no)</h1>
+        <br>
+        <input type="checkbox" id="celiaco" name="menuCeliaco" value="celiaco">
+        <label for="menuCeliaco"> Menu Celiaco</label><br>
+        <input type="checkbox" id="menuVegano" name="menuVegano" value="vegano">
+        <label for="menuVegano"> Menu Vegano </label><br>
+
+        <br>
+        <input type="submit" value="Realizar Reserva">
+    </form>
+
+</section>
+</body>
+</html>
