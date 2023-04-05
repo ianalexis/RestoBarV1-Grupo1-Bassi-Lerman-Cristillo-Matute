@@ -1,62 +1,32 @@
 :root { /* PALETA DE COLORES */
-  --color-violetaF:#413e4a;
-  --color-violetaC:#73626e;
-  --color3:#b38184;
-  --color-rosa:#f0b49e;
-  --color-beige:#f7e4be;
-}
-*{/*  CON ESTOS ATRIBUTOS SETEAMOS TODO EN 0 PARA EVITAR CAMBIOS DE TAMAÑO INESPERADOS */
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;  
-} 
+    --color-violetaF:#413e4a;
+    --color-violetaC:#73626e;
+    --color3:#b38184;
+    --color-rosa:#f0b49e;
+    --color-beige:#f7e4be;
+  }
+ 
 
-body{
-  background-color: var(--color-violetaF);
-  position: relative;
-
-  display: flex; 
-  flex-direction: column; 
-
-  padding-bottom: 3em;/*  Le damos un poco de despeje */
-  min-height: 100vh; /* Seteamos el minimo del tamaño del body adaptado al vwport */
-}
-
-#banner{
-  text-align: center;
-  font-size: 3em;
-  color: var(--color-beige);
-}
-
-.contenedorMenus p{
-        text-align: center;
-        color:var(--color-violetaC)
-    }
-
-    .contenedorMenus h1{
-      text-align: center;
-      color:var(--color-beige)
+  body{
+    background-color: var(--color-violetaF);
+    padding-bottom: 3em;/*  Le damos un poco de despeje */
+    min-height: 100vh; /* Seteamos el minimo del tamaño del body adaptado al vwport */
+    display: flex;
+    flex-direction: column;  /* ROW PARA FILAS Con estos 3 centro todo */
+    justify-content: center;
+    text-align: center;
+  }
+  #banner{
+    text-align: center;
+    font-size: 3em;
+    color: var(--color-beige);
+  }
+  #footer{
+    padding-bottom: 1em 0;/*  Le damos un poco de despeje */
+    margin-top: auto;
   }
 
-.contenedorMenus ul {
-        list-style-type: none;
-        overflow: hidden;
-        background-color: var(--color-violetaF);
-    }
-.contenedorMenus  li {
-        border-style: solid;
-        background-color:var(--color-violetaF);
-      }
-
-      .contenedorMenus h1 {
-        text-align: center;
-        border-style: solid;
-        padding-top: 10px;
-        padding-bottom: 10px;
-        background-color:var(--color-violetaF);
-      }
-   
-#navbar ul {  
+  #navbar ul {  
     display: flex;
     flex-direction: row; /* Con estos 3 centro todo */
     justify-content: center;
@@ -69,7 +39,8 @@ body{
     background-color:var(--color-violetaF);
   }
 #navbar li a {  
-  padding-right: 60px;
+
+    padding-right: 3em;
     color: var(--color-beige);  
     text-decoration: none;  /* SACAMOS EL UNDERLINED  */
   }  
@@ -77,60 +48,90 @@ body{
 #navbar li a:hover {
     background-color: var(--color-violetaC);
   }
-  
-.tablaComidas{
-  display: flex; 
-  justify-content: center;
-  flex-direction: row;
-
-  text-align: center;  
-  padding-top: 30px;
-  background-color:var(--color-violetaF);
- }
-
-.tablaComidas th{
-  padding-left: 100px;
-  }
-
-.tablaComidas td{  
-  text-align: center;  
-    padding-top: 50px;
-    padding-left: 100px;
-    padding-bottom: 50px;
-    }
+/* 
+  .tablaComidas{
+    display: flex; 
+    justify-content: center;
+    flex-direction: row;  
+    padding-top: 3em;
+   }
+    .tablaComidas td{          
+        padding: auto;
+          }
 
 .tablaComidas tr{
-      color:var(--color-beige)
-    }
+    color:var(--color-beige)
+} */
 
-#footer{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  padding-bottom: 1em 0;/*  Le damos un poco de despeje */
-  margin-top: auto;
+
+.tablaComidas{
+    display: flex; 
+    justify-content: center;
+    flex-direction: row;
+    padding-top: 1em;
+   }
+  
+  .tablaComidas th{
+    padding-left: 2em;
+    }
+  
+  .tablaComidas td{     
+      padding-top: 2em;
+      padding-left: 2em;
+      padding-bottom: 2em;
+    }
+  
+  .tablaComidas tr{
+        color:var(--color-beige)
+      }
+
+
+#terminosReserva{
+    padding-top: 1em;
+    padding-left: 1em;
+    color: var(--color-beige); 
+   } 
+   
+   #formularioDeReserva {      
+    border-top: #f7e4be 5px solid;
+    border-right: #f7e4be 5px solid;
+    border-bottom: #f7e4be 5px solid;
+    border-left: #f7e4be 5px solid;
+    padding-bottom: 1em;      
+  }
+
+#formularioDeReserva label{
+color: var(--color-beige); 
+font-size: 18px;
+}
+#formularioDeReserva h1{  
+color: var(--color-beige); 
 }
 
-    #formularioDeReserva {      
-      border-top: #f7e4be 5px solid;
-      border-right: #f7e4be 5px solid;
-      border-bottom: #f7e4be 5px solid;
-      border-left: #f7e4be 5px solid;
-      padding-bottom: 10px;      
-    }
+.contenedorMenus p{
+    text-align: center;
+    color:var(--color-violetaC)
+}
 
- #formularioDeReserva label{
-  color: var(--color-beige); 
-  font-size: 18px;
- }
-
- #formularioDeReserva h1{  
-  color: var(--color-beige); 
- }
-
- #terminosReserva{
+.contenedorMenus h1{
   text-align: center;
-  padding-top: 1em;
-  padding-left: 1em;
-  color: var(--color-beige); 
- }
+  color:var(--color-beige)
+}
+
+.contenedorMenus ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: var(--color-violetaF);
+}
+.contenedorMenus  li {
+    border-style: solid;
+    background-color:var(--color-violetaF);
+  }
+
+  .contenedorMenus h1 {
+    text-align: center;
+    border-style: solid;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color:var(--color-violetaF);
+  }
