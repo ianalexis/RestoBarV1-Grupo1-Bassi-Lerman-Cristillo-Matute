@@ -9,54 +9,52 @@
     </head>
 <body>
 
-   <!--  BANNER -->
-   <section id="banner">
-    <h1>Restaurante La Numero 1</h1>
+<!--   BANNER  -->
+<section id="banner">
+        <h1>Restaurante La Numero 1</h1>
+    <!--  NAVBAR -->
+    <nav id="navbar">
+        <ul>        
+           <li><a href="carta.html#entradas">Entradas</a></li>
+           <li><a href="carta.html#platosPrincipales">Plato Principal</a></li>
+           <li><a href="carta.html#postres">Postres</a></li>
+           <li><a href="carta.html#bebidas">Bebidas</a></li>
+           <li><a href="reservas.html">Reservas</a></li>
+        </ul>
+    </nav>
 </section>
 
-<!--  NAVBAR -->
-<nav id="navbar">
-    <ul>
-        <li><a href="carta.html#entradas">Entradas</a></li>
-        <li><a href="carta.html#platosPrincipales">Plato Principal</a></li>
-        <li><a href="carta.html#postres">Postres</a></li>
-        <li><a href="carta.html#bebidas">Bebidas</a></li>
-        <li><a href="#">Reservas</a></li>
-    </ul>
-</nav>
+<section id = "formularioDeReserva" class="tablaComidas ">
+    <form id ="formReserva" class="centrarEnColumnas" action="" >
+        <label for="nombreCompleto">Nombre Completo</label>
+        <input type="text" id="nombreCompleto" name="nombreCompleto">
+        <label for="dni">DNI</label>
+        <input type="text" id="dni" name="dni">
+        <label for="telefonoContacto">Telefono de Contacto</label>
+        <input type="text" id="telefonoContacto" name="telefonoContacto">
+        <label for="lname">Cantidad de Personas</label>
+        <input type="text" id="cantidadPersonas" name="cantidadTotal">
 
-<section id = "formularioDeReserva" class="tablaComidas">
-    <form id ="formReserva" action="" >
-        <label for="nombreCompleto">Nombre Completo</label><br>
-        <input type="text" id="nombreCompleto" name="nombreCompleto"><br>
-        <label for="dni">DNI</label><br>
-        <input type="text" id="dni" name="dni"><br>
-        <label for="telefonoContacto">Telefono de Contacto</label><br>
-        <input type="text" id="telefonoContacto" name="telefonoContacto"><br>
-        <label for="lname">Cantidad de Personas</label><br>
-        <input type="text" id="cantidadPersonas" name="cantidadTotal"><br>
-
-        <br>
-        <br>
+    <section id="opcionales">
         <h1>¿Requiere algún tipo de menú especial? (vacio para no)</h1>
-        <br>
         <input type="checkbox" id="celiaco" name="menuCeliaco" value="celiaco">
-        <label for="menuCeliaco"> Menu Celiaco</label><br>
+        <label for="menuCeliaco"> Menu Celiaco</label>
         <input type="checkbox" id="menuVegano" name="menuVegano" value="vegano">
-        <label for="menuVegano"> Menu Vegano </label><br>
+        <label for="menuVegano"> Menu Vegano </label>
+    </section>
 
-        <br>
-        <input type="submit" value="Realizar Reserva">
+        <input id="botonEnviar" type="submit" value="Realizar Reserva">
     </form>
 </section>
 
-<section id = "terminosReserva">
+<section id = "terminosReserva" class="centrarEnColumnas">
     <h1>Términos y Condiciones de Reserva</h1>                        
    <h3>Inventar algun parrafito </h2>
 </section>
 
-<footer id ="footer">
+<footer class="centrarEnColumnas">
     <h1>NUESTRO BELLO FOOTER</h1>
 </footer>
+
 </body>
 </html>

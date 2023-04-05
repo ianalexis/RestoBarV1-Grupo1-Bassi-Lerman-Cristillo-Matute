@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,30 +8,31 @@
         <title>Carta</title>   
         <link rel="stylesheet" href="css/style.css"> 
     </head>
+
 <body>
-
-  <!--   BANNER  -->
-    <section id="banner">
+    
+      <!--   BANNER  -->
+<section id="banner">
         <h1>Restaurante La Numero 1</h1>
-    </section>
-
     <!--  NAVBAR -->
-<nav id="navbar">
-    <ul>
-        <li><a href="carta.html#entradas">Entradas</a></li>
-        <li><a href="carta.html#platosPrincipales">Plato Principal</a></li>
-        <li><a href="carta.html#postres">Postres</a></li>
-        <li><a href="carta.html#bebidas">Bebidas</a></li>
-        <li><a href="reservas.html">Reservas</a></li>
-    </ul>
-</nav>
+    <nav id="navbar">
+        <ul>        
+           <li><a href="carta.html#entradas">Entradas</a></li>
+           <li><a href="carta.html#platosPrincipales">Plato Principal</a></li>
+           <li><a href="carta.html#postres">Postres</a></li>
+           <li><a href="carta.html#bebidas">Bebidas</a></li>
+           <li><a href="reservas.html">Reservas</a></li>
+        </ul>
+    </nav>
+</section>
 
-  <!--  ARRANCA LA CARTA -->
-  <main id="carta">
-    <section id ="entradas" class ="contenedorMenus">
-        <h1>ENTRADAS</h1>
-        <table id ="tablaEntradas" class="tablaComidas">
-            <tr id="tableHeaders"> <!-- En la primer FILA ponemos los Table Headers (th) -->
+<main id ="carta" class="centrarEnColumnas">  
+
+    <h1>ENTRADAS</h1>   
+    <section id = "entradas">        
+        <table id ="tablaDeComidas" class="tablaComidas">
+
+            <tr> <!-- En la primer FILA ponemos los Table Headers (th) -->
                 <th>Nombre</th>
                 <th>Precio</th>
                 <th>Imagen Ilustrativa</th>
@@ -42,135 +44,69 @@
                 <td> <img src="/images/Emapanas.png" height="60px" > </td>
             </tr>
 
-            <tr>  <!-- NOMBRE DEL PLATO-->
-                <td>Papas Fritas</td>
-                <td>$850 </td>
-                <td> <img src="/images/PapasFritas.png" height="75px" > </td>
-            </tr>
-
-            <tr>  <!-- NOMBRE DEL PLATO-->
-                <td>Tequeños</td>
-                <td>$1050 </td>
-                <td> <img src="/images/Tequeños.png" height="100px" > </td>
-            </tr>
-            
-            <tr>  <!-- NOMBRE DEL PLATO-->
-                <td>Milanesas de Muzza</td>
-                <td>$1100 </td>
-                <td> <img src="/images/Muzzarelitas.png" height="100px" > </td>
-            </tr>
         </table>
-    </section>
+    </section>   
 
-    <section id= "platosPrincipales" class ="contenedorMenus">
-        <h1>PLATOS PRINCIPALES</h1>
-        <table id ="tablaPrincipales" class="tablaComidas">
-            <tr id="tableHeaders"> <!-- En la primer FILA ponemos los Table Headers (th) -->
-                <th>Nombre</th>
-                <th>Precio</th>
-                <th>Imagen Ilustrativa</th>
-            </tr>
+    <h1>PLATOS PRINCIPALES</h1>   
+    <section id = "platosPrincipales">        
+        <table id ="tablaDeComidas" class="tablaComidas">
 
-            <tr> <!-- NOMBRE DEL PLATO-->
-                <td>Fuccile al Scarparo </td>
-                <td>$1600 </td>
-                <td>IMAGEN 50x50 </td>
-            </tr>
-
-            <tr>  <!-- NOMBRE DEL PLATO-->
-                <td>Sorrentinos de Jamon y Queso</td>
-                <td>$1800 </td>
-                <td>IMAGEN 50x50 </td>
-            </tr>
-
-            <tr>  <!-- NOMBRE DEL PLATO-->
-                <td>Milanesa Napolitana c/g</td>
-                <td>$2300 </td>
-                <td>IMAGEN 50x50 </td>
-            </tr>
-            
-            <tr>  <!-- NOMBRE DEL PLATO-->
-                <td>Grande de Muzza al molde</td>
-                <td>$2200 </td>
-                <td>IMAGEN 50x50 </td>
-            </tr>
-        </table>
-    </section>
-
-    <section id="postres" class ="contenedorMenus">
-        <h1>POSTRES</h1>
-        <table id ="tablaPostres" class="tablaComidas">
-            <tr id="tableHeaders"> <!-- En la primer FILA ponemos los Table Headers (th) -->
-                <th>Nombre</th>
-                <th>Precio</th>
-                <th>Imagen Ilustrativa</th>
-            </tr>
-
-            <tr> <!-- NOMBRE DEL PLATO-->
-                <td>Flan Casero</td>
-                <td>$1200 </td>
-                <td>IMAGEN 50x50 </td>
-            </tr>
-
-            <tr>  <!-- NOMBRE DEL PLATO-->
-                <td>Fresco y Dulce</td>
-                <td>$850 </td>
-                <td>IMAGEN 50x50 </td>
-            </tr>
-
-            <tr>  <!-- NOMBRE DEL PLATO-->
-                <td>Fogliatella</td>
-                <td>$1600 </td>
-                <td>IMAGEN 50x50 </td>
-            </tr>
-            
-            <tr>  <!-- NOMBRE DEL PLATO-->
-                <td>Copa la Número 1</td>
-                <td>$1380 </td>
-                <td>IMAGEN 50x50 </td>
-            </tr>
-        </table>
-    </section>
-    
-    <section id ="bebidas" class="contenedorMenus">
-        <h1>BEBIDAS</h1>
-        <table id ="tablaBebidas" class="tablaComidas">
             <tr> <!-- En la primer FILA ponemos los Table Headers (th) -->
                 <th>Nombre</th>
                 <th>Precio</th>
                 <th>Imagen Ilustrativa</th>
             </tr>
 
-            <tr> <!-- NOMBRE DEL PLATO-->
-                <td>Stella Artois 972cc</td>
-                <td>$1500 </td>
-                <td>IMAGEN 50x50 </td>
+            <tr> <!-- Empanadas-->
+                <td>Empanadas</td>
+                <td>$450 c/u </td>
+                <td> <img src="/images/Emapanas.png" height="60px" > </td>
             </tr>
 
-            <tr>  <!-- NOMBRE DEL PLATO-->
-                <td>Imperial Tirada 500cc</td>
-                <td>$720 </td>
-                <td>IMAGEN 50x50 </td>
-            </tr>
-
-            <tr>  <!-- NOMBRE DEL PLATO-->
-                <td>Agua Saborizada</td>
-                <td>$620 </td>
-                <td>IMAGEN 50x50 </td>
-            </tr>
-            
-            <tr>  <!-- NOMBRE DEL PLATO-->
-                <td>Agua Mineral</td>
-                <td>$500 </td>
-                <td>IMAGEN 50x50 </td>
-            </tr>
         </table>
-    </section>
-</main> <!-- TERMINA LA CARTA -->
+    </section>   
 
-<footer id ="footer">
+    <h1>POSTRES</h1>   
+    <section id = "postres">        
+        <table id ="tablaDeComidas" class="tablaComidas">
+
+            <tr> <!-- En la primer FILA ponemos los Table Headers (th) -->
+                <th>Nombre</th>
+                <th>Precio</th>
+                <th>Imagen Ilustrativa</th>
+            </tr>
+
+            <tr> <!-- Empanadas-->
+                <td>Empanadas</td>
+                <td>$450 c/u </td>
+                <td> <img src="/images/Emapanas.png" height="60px" > </td>
+            </tr>
+
+        </table>
+    </section>   
+    <h1>BEBIDAS</h1>   
+    <section id = "bebidas">        
+        <table id ="tablaDeComidas" class="tablaComidas">
+
+            <tr> <!-- En la primer FILA ponemos los Table Headers (th) -->
+                <th>Nombre</th>
+                <th>Precio</th>
+                <th>Imagen Ilustrativa</th>
+            </tr>
+
+            <tr> <!-- Empanadas-->
+                <td>Empanadas</td>
+                <td>$450 c/u </td>
+                <td> <img src="/images/Emapanas.png" height="60px" > </td>
+            </tr>
+
+        </table>
+    </section>   
+
+ </main>
+
+ <footer class="centrarEnColumnas">
     <h1>NUESTRO BELLO FOOTER</h1>
-</footer>
-
+</footer> 
 </body>
 </html>

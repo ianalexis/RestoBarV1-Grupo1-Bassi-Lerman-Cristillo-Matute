@@ -11,29 +11,38 @@
     box-sizing: border-box;  
   } 
 
-  body{
-    display: flex;
+  .centrarEnColumnas{
+    display: flex; 
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    align-items: center;    
+  }
+
+.centrarEnFilas{
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;    
+  }
+
+body{
+     display: flex; 
+    flex-direction: column;
+    align-items: center;   
+
     min-height: 100vh; 
     background-color: var(--color-violetaF);
     color: var(--color-beige);
   }
- 
-  #banner{
+
+#banner h1{
     text-align: center;
     font-size: 3em;
-    color: var(--color-beige);
-    padding-bottom: 0.5em;
-    padding-top: 1em;
-  }
-  #footer{    
-    padding-bottom: 2.5em;
-    margin-top: auto;
+    padding: 1em 0 0.5em 0;
   }
 
-  #navbar ul {  
+#navbar{
+    margin-left: 6em;
+}
+#navbar ul {  
     display: flex;
     flex-direction: row; /* Con estos 3 centro todo */
     justify-content: center;
@@ -51,66 +60,65 @@
     color: var(--color-beige);  
     text-decoration: none;  /* SACAMOS EL UNDERLINED  */
   }
-  #navbar li a:hover {
+#navbar li a:hover {
     text-decoration: underline;
   } 
 
-  .contenedorMenus{
-    font-size: 20px;
-  }
-.contenedorMenus p{
-  text-align: center;
-  color:var(--color-violetaC)
-}
-
-.contenedorMenus ul {
-  list-style-type: none;
-  overflow: hidden;
-}
-.contenedorMenus h1 {
-  text-align: center;
-  border-style: solid;
-  padding: 1em;
-}
-
+#carta h1 {    
+    text-align: center;
+    border-style: solid;
+    padding: 1em 12em; 
+    width: 110vh;           
+} 
 .tablaComidas{
-    display: flex; 
-    justify-content: center;
-    flex-direction: row;
-  padding: 2em;
-   }
-  
-  .tablaComidas th{
-    padding-left: 2em;
-    }
-  
-  .tablaComidas td{   
-    text-align: center;  
-      padding-top: 2em;
-      padding-left: 2em;
-      padding-bottom: 2em;
-    }
-  
-  .tablaComidas tr{
-        color:var(--color-beige)
-      }
+    padding: 1.5em;
+} 
 
-#terminosReserva{
-    text-align: center;
-    padding: 2em;
-    color: var(--color-beige); 
-   } 
-   
-#formularioDeReserva {     
-    text-align: center;
-    border: #f7e4be 5px solid;
-    padding: 2em;   
+.tablaComidas tr,td{
+    padding: 3em;
+} 
+.tablaComidas th{
+    font-size: 2em;
+}
+.tablaComidas td{
+    font-size: 1.5em;
+
+
   }
+  
+footer{    
+  margin-top:auto;
+  padding-bottom: 2.5em;  
+}
+ 
+#formularioDeReserva {   
+  font-size: 30px;  
+  text-align: center;
+  border: #f7e4be 5px solid;
+  width: 110vh;
+  padding: 2em;   
+}
 
-#formularioDeReserva label{
-color: var(--color-beige); 
-font-size: 18px;
+#formReserva input{  
+  font-size: 30px;
+  margin-bottom: 1em;
 }
-#formularioDeReserva h1{  
-color: var(--color-beige); 
+
+#formReserva input{
+  margin-bottom: 1em;
 }
+
+#botonEnviar{
+ padding: 20px;
+  margin-top: 1.5em;
+}
+#terminosReserva{
+  text-align: center;
+  padding: 2em;
+  color: var(--color-beige); 
+ } 
+
+ #opcionales *{
+  font-size: 30px;
+  padding: 1em;
+ }
