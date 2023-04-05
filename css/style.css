@@ -122,3 +122,7 @@ footer{
   font-size: 30px;
   padding: 1em;
  }
+
+ #divFooter h1{
+  padding: 1em;
+ }
