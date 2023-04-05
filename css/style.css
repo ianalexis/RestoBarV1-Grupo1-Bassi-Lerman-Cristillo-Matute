@@ -16,20 +16,20 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
-    padding-bottom: 3em;
+    min-height: 100vh; 
     background-color: var(--color-violetaF);
     color: var(--color-beige);
   }
-
-  
+ 
   #banner{
     text-align: center;
     font-size: 3em;
     color: var(--color-beige);
+    padding-bottom: 0.5em;
+    padding-top: 1em;
   }
-  #footer{
-    padding-bottom: 1em 0;/*  Le damos un poco de despeje */
+  #footer{    
+    padding-bottom: 2.5em;
     margin-top: auto;
   }
 
@@ -39,8 +39,8 @@
     justify-content: center;
 
     font-size: 200%;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 1em;
+    padding-bottom: 1em;
     
     list-style-type: none;    /*  SACAMOS LAS VIÑETAS */
     background-color:var(--color-violetaF);
@@ -56,7 +56,6 @@
   } 
 
   .contenedorMenus{
-    padding: 1em;
     font-size: 20px;
   }
 .contenedorMenus p{
@@ -96,10 +95,9 @@
         color:var(--color-beige)
       }
 
-
 #terminosReserva{
     text-align: center;
-    padding: 1em;
+    padding: 2em;
     color: var(--color-beige); 
    } 
    
