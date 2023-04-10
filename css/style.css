@@ -1,9 +1,9 @@
 :root { /* PALETA DE COLORES */
-    --color-violetaF:#252525;
+    --color-fondo:#252525;
     --color-violetaC:#5441ff;
     --color3:#ff0011;
-    --color-rosa:#18b625;
-    --color-beige:#ffffff;
+    --color-verde:#18b625;
+    --color-letras:#ffffff;
   }
   *{/*  CON ESTOS ATRIBUTOS SETEAMOS TODO EN 0 PARA EVITAR CAMBIOS DE TAMAÑO INESPERADOS */
     margin: 0;
@@ -29,8 +29,8 @@ body{
     align-items: center;   
 
     min-height: 100vh; 
-    background-color: var(--color-violetaF);
-    color: var(--color-beige);
+    background-color: var(--color-fondo);
+    color: var(--color-letras);
   }
 
 #banner h1{
@@ -52,12 +52,12 @@ body{
     padding-bottom: 1em;
     
     list-style-type: none;    /*  SACAMOS LAS VIÑETAS */
-    background-color:var(--color-violetaF);
+    background-color:var(--color-fondo);
   }
   
 #navbar li a {  
     padding-right: 3em;
-    color: var(--color-beige);  
+    color: var(--color-letras);  
     text-decoration: none;  /* SACAMOS EL UNDERLINED  */
   }
 #navbar li a:hover {
@@ -115,7 +115,7 @@ footer{
 #terminosReserva{
   text-align: center;
   padding: 2em;
-  color: var(--color-beige); 
+  color: var(--color-letras); 
  } 
 
  #opcionales *{
