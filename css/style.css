@@ -1,9 +1,9 @@
 :root { /* PALETA DE COLORES */
-    --color-violetaF:#413e4a;
-    --color-violetaC:#73626e;
-    --color3:#b38184;
-    --color-rosa:#f0b49e;
-    --color-beige:#f7e4be;
+    --color-violetaF:#252525;
+    --color-violetaC:#5441ff;
+    --color3:#ff0011;
+    --color-rosa:#18c727;
+    --color-beige:#ffffff;
   }
   *{/*  CON ESTOS ATRIBUTOS SETEAMOS TODO EN 0 PARA EVITAR CAMBIOS DE TAMAÑO INESPERADOS */
     margin: 0;
