@@ -91,7 +91,7 @@ footer{
   background-color: #33303a;
 }
  
-#formularioDeReserva {   
+#formularioDeReserva fieldset{   
   font-size: 30px;  
   text-align: center;
   border: #f7e4be 5px solid;
