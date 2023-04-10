@@ -82,13 +82,13 @@ body{
 }
 .tablaComidas td{
     font-size: 1.5em;
-
-
   }
   
 footer{    
+  width: 100%;
   margin-top:auto;
   padding-bottom: 2.5em;  
+  background-color: #33303a;
 }
  
 #formularioDeReserva {   
